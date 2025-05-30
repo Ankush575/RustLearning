@@ -1,0 +1,16 @@
+[package]
+name = "rust_warp_user_crud_api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+warp = "0.3.7"
+tokio = { version = "1.45.1", features = ["full"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+bcrypt = "0.17.0"
+uuid = { version = "1.17.0", features = ["v4", "serde"] }
+arc = "0.0.1"
+mutex = "1.0.0"
+
+
